@@ -1,8 +1,8 @@
 from telegram import Bot
 from telegram.ext import Updater, CommandHandler, Filters, MessageHandler
 
-bot = Bot(token = '5821296480:AAGbqEKoUMa94q_-jqeQ-of-qukQzjOZJjU')
-updater = Updater(token = '5821296480:AAGbqEKoUMa94q_-jqeQ-of-qukQzjOZJjU')
+bot = Bot(token = '')
+updater = Updater(token = '')
 dispatcher = updater.dispatcher
 
 def start(update, context):
